@@ -1,0 +1,230 @@
+nav{
+  color:#ffffff;
+  font-size:21pt;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:relative;
+  top:0;
+  left:0;
+  width:100vw;
+  max-width:100vw;
+  height:100px;
+  z-index:100;
+  background-color:#3759c1;
+  padding-right:19px;
+}
+nav > ul, ul > li, li > a{
+  color:#ffffff;
+  text-decoration:none;
+  list-style:none;
+}
+.pages{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.pages > li{
+  cursor:pointer;
+  margin-right:20px;
+}
+
+.3_watch {
+  position: relative;
+  top: 0px;
+  width: 100vw;
+  height: 690px;
+  z-index: 1;
+}
+.rowplay{
+  text-decoration:none;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  top:385px;
+  left:630px;
+  position:relative;
+  width:464px;
+  z-index:55;
+  color:#3759c1;
+  font-size:21pt;
+  font-weight:500;
+}
+.rowplay:hover{text-decoration:underline}
+.watchtext {
+  user-select:none;
+  color:#3759c1;
+  font-size:21pt;
+  font-weight:500;
+  position: absolute;
+  text-align:right;
+  left: 630px;
+  top: 160px;
+  width: 464px;
+  height: 189px;
+  z-index: 50;
+}
+.playicon {
+  background-image: url("../assets/3-playBtn.png"); 
+  width: 28px;
+  height: 28px; 
+  margin-left:12px;
+}
+.playBtn {
+  background-image: url("../assets/3-playBtn.png");
+  position: absolute;
+  left: 1064px;
+  top: 385px;
+  width: 28px;
+  height: 28px;
+  z-index: 5;
+}
+.feat3 {
+  background-image: url("../assets/featWatch.png");
+  position: absolute;
+  left: 78px;
+  top: 0px;
+  width: 402px;
+  height: 681px;
+  z-index: 4;
+}
+.bg3 {
+  background-color:#f3f3f3;
+  position: absolute;
+  left: 0px;
+  top: 57px;
+  width: 1240px;
+  height: 487px;
+  z-index: 3;
+}
+.layout3 {
+  top:0;
+  left: 50%;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  position: relative;
+  max-width:1245px;
+  width: 1242px;
+  height: 681px;
+  z-index: 2;
+}
+
+.1_resume {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  max-width: 100vw;
+  width:100%;
+  height: 774px;
+  z-index: 1;
+}
+.layout1 {
+  background-color:#3759c1;
+  top:0;
+  left: 50%;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+
+  /* border:1px solid blue; */
+  position: relative;
+
+  max-width:1240px;
+  width: 1240px;
+  height: 681px;
+  z-index: 2;
+}
+.featured {
+  /* background-image: url("../assets/2featured2.png"); */
+  background-image: url("../assets/feature2.png");
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  position: absolute;
+  left: 758px;
+  top: 93px;
+  width: 402px;
+  height:605px;
+  /* height: 681px; */
+  z-index: 11;
+}
+.feat_top {
+  background-color:#f3f3f3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1240px;
+  height: 636px;
+  z-index: 10;
+}
+.options{
+  position:absolute;
+  top:152px;
+  left:103px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin:0;
+  padding:0px 15px;
+  z-index:10;
+  height:367px;
+/* background-color:#3c3c3c; border:1px solid red; */
+}
+.options > a{
+  text-decoration:none;
+}
+.options > a:hover{
+  text-decoration:underline;
+}
+.row1, .row2, .row3, .row4{
+  cursor:pointer;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:center;
+  position:relative;
+  height:60px;
+  user-select:none;
+  color:#3759c1;
+  font-size:21pt;
+  font-weight:500;
+}
+.box1, .box2, .box3, .box4{
+  border: 1px solid #000000;
+  background-color: #3759c1;
+  width: 52px;
+  height: 52px;
+  z-index: 16;
+  margin-right:15px;
+}
+.title {
+  /* background-image: url("../assets/title.png"); */
+  user-select:none;
+  color:#3759c1;
+  font-size:21pt;
+  font-weight:700;
+  position: absolute;
+  left: 107px;
+  top: 98px;
+  width: 432px;
+  height: 26px;
+  z-index: 13;
+}
+.read_more {
+  /* background-image: url("../assets/read-more.png"); */
+  cursor:pointer;
+  color:#3759c1;
+  font-size:21pt;
+  font-weight:700;
+  text-decoration:underline;
+  position: absolute;
+  left: 107px;
+  top: 531px;
+  width: 432px;
+  height: 32px;
+  z-index: 12;
+}
+
+
+
