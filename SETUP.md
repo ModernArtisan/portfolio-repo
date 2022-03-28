@@ -4,6 +4,8 @@
 composer create-project laravel/laravel portfolio
 ```
 
+Alternately setup using advanced git command: laravel new portfolio-repo --github="--private"
+
 ```
 laravel new portfolio-repo --git
 git remote add origin https://github.com/ModernArtisan/portfolio-repo
